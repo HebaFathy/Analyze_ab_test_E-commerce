@@ -1,9 +1,9 @@
 # Analyze_ab_test_results
 A/B tests are very commonly performed by data analysts and data scientists. It is important that you get some practice working with the difficulties of these.
 
-For this project, we worked to understand the results of an A/B test run by an e-commerce website. The company has developed a new web page in order to try and increase the number of users who "convert," meaning the number of users who decide to pay for the company's product. Your goal is to work through this notebook to help the company understand if they should implement this new page, keep the old page, or perhaps run the experiment longer to make their decision.
+For this project, we worked to understand the results of an A/B test run by an e-commerce website.  The company had developed a new web page in order to try and increase the number of users who "convert," meaning the number of users who decide to pay for the company's product. Our goal was to help the company understand if they should implement this new page, keep the old page, or perhaps run the experiment longer to make their decision.
 
-We used A/B test, Z-test, Logistic regression. 
+We used A/B test, Z-test, Logistic regression using Python.
 
 For A/B test:
 The calculated p-value from bootstrap sample with a value of 0.9 which is larger than apla value of 0.05, means we fail to reject the null hypotheses. In addition to, the difference in convertion rate for new page and old page is negative and is not statistically significant concluding that the old page has higher probablity of convert rate than new page. Therefore, the old page is statistically favored and is better than the new one.
